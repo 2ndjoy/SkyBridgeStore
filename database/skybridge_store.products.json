@@ -1,0 +1,76 @@
+[{
+  "_id": {
+    "$oid": "6ad87ed7e77c1498a9b9be74"
+  },
+  "name": "Wireless Headphones (Test Edit)",
+  "description": "Comfortable wireless headphones with immersive sound for work and everyday listening.",
+  "price": 89.99,
+  "category": "Electronics",
+  "imageUrl": "",
+  "stock": 25,
+  "badge": "Bestseller",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-10-21T08:59:03.480Z"
+  },
+  "updatedAt": {
+    "$date": "2026-10-21T14:21:44.971Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6ad87ed7e77c1498a9b9be76"
+  },
+  "name": "Everyday Backpack",
+  "description": "A practical backpack for study, commuting, and travel.",
+  "price": 54.99,
+  "category": "Accessories",
+  "imageUrl": "",
+  "stock": 30,
+  "badge": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-10-21T08:59:03.480Z"
+  },
+  "updatedAt": {
+    "$date": "2026-10-21T08:59:03.480Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6ad87ed7e77c1498a9b9be78"
+  },
+  "name": "Portable Speaker",
+  "description": "A compact portable speaker for music at home or on the go.",
+  "price": 69.99,
+  "category": "Electronics",
+  "imageUrl": "",
+  "stock": 15,
+  "badge": "",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-10-21T08:59:03.480Z"
+  },
+  "updatedAt": {
+    "$date": "2026-10-21T08:59:03.480Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6ad8ca5c09c1ed1923835279"
+  },
+  "name": "Ram",
+  "description": "2556 GHz Ram",
+  "price": 230,
+  "category": "Accessories",
+  "imageUrl": "",
+  "stock": 12,
+  "badge": "",
+  "createdAt": {
+    "$date": "2026-10-21T14:21:16.055Z"
+  },
+  "updatedAt": {
+    "$date": "2026-10-21T14:53:53.784Z"
+  },
+  "__v": 0
+}]

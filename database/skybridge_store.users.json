@@ -1,0 +1,64 @@
+[{
+  "_id": {
+    "$oid": "6ad88a052e485dc53d42798f"
+  },
+  "name": "Test Customer",
+  "email": "customer.test@example.com",
+  "passwordHash": "$2b$10$/ACswjuqfWRRdnKK5uPJTejBS42FEYR.o1zpXlgU8wi7qGyu2S9g.",
+  "role": "customer",
+  "createdAt": {
+    "$date": "2026-10-21T09:46:45.403Z"
+  },
+  "updatedAt": {
+    "$date": "2026-10-21T09:46:45.403Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ad88c022e485dc53d427990"
+  },
+  "name": "Rahul",
+  "email": "rcha@gmail.com",
+  "passwordHash": "$2b$10$PF31so2hWm56YGhVuVnBO.tKIxc5VYSvMNeIQEIUxi0ETRZT.Yggu",
+  "role": "customer",
+  "createdAt": {
+    "$date": "2026-10-21T09:55:14.089Z"
+  },
+  "updatedAt": {
+    "$date": "2026-10-21T09:55:14.089Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ad8bc7870c09b86292a6181"
+  },
+  "name": "Store Administrator",
+  "email": "admin@skybridge.local",
+  "passwordHash": "$2b$10$hnlHtHarzKc88xUQiI/HLe/aRCQsCS.OgOgL4rBvJeBYmGVithBmi",
+  "role": "admin",
+  "createdAt": {
+    "$date": "2026-10-21T13:22:00.413Z"
+  },
+  "updatedAt": {
+    "$date": "2026-10-21T13:22:00.413Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ad8d39b09c1ed192383527b"
+  },
+  "name": "Rahul",
+  "email": "rch2a@gmail.com",
+  "passwordHash": "$2b$10$p3hEdJL1E9beh.gI/AFPaObAvRLHuY.d3VPg4111Dngb8IN4O5dvG",
+  "role": "customer",
+  "createdAt": {
+    "$date": "2026-10-21T15:00:43.111Z"
+  },
+  "updatedAt": {
+    "$date": "2026-10-21T15:00:43.111Z"
+  },
+  "__v": 0
+}]
