@@ -1,0 +1,57 @@
+
+[
+  {
+    "name": "Wireless Headphones",
+    "description": "Comfortable wireless headphones with immersive sound for work and everyday listening.",
+    "price": 89.99,
+    "category": "Electronics",
+    "imageUrl": "",
+    "stock": 25,
+    "badge": "Bestseller"
+  },
+  {
+    "name": "Smart Watch",
+    "description": "A smart watch to help track daily activity and keep you connected.",
+    "price": 129.99,
+    "category": "Electronics",
+    "imageUrl": "",
+    "stock": 18,
+    "badge": "Popular"
+  },
+  {
+    "name": "Everyday Backpack",
+    "description": "A practical backpack for study, commuting, and travel.",
+    "price": 54.99,
+    "category": "Accessories",
+    "imageUrl": "",
+    "stock": 30,
+    "badge": ""
+  },
+  {
+    "name": "Desk Lamp",
+    "description": "A simple desk lamp for a comfortable home or study workspace.",
+    "price": 39.99,
+    "category": "Home",
+    "imageUrl": "",
+    "stock": 20,
+    "badge": "New"
+  },
+  {
+    "name": "Portable Speaker",
+    "description": "A compact portable speaker for music at home or on the go.",
+    "price": 69.99,
+    "category": "Electronics",
+    "imageUrl": "",
+    "stock": 15,
+    "badge": ""
+  },
+  {
+    "name": "Travel Bottle",
+    "description": "A reusable bottle for everyday use, commuting, and travel.",
+    "price": 24.99,
+    "category": "Accessories",
+    "imageUrl": "",
+    "stock": 40,
+    "badge": ""
+  }
+]

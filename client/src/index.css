@@ -1,0 +1,41 @@
+
+:root {
+  font-family: "DM Sans", Arial, sans-serif;
+  color: #252a25;
+  background: #ffffff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible {
+  outline: 2px solid #526b50;
+  outline-offset: 3px;
+}
+
+::selection {
+  background: #dce6d6;
+  color: #252a25;
+}
