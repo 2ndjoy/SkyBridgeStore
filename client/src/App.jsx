@@ -3,62 +3,6 @@ import "./App.css";
 
 const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000/api";
 
-const products = [
-  {
-    id: 1,
-    name: "Wireless Headphones",
-    category: "Electronics",
-    price: 89.99,
-    emoji: "🎧",
-    description: "Immersive sound for work and everyday listening.",
-    badge: "Bestseller",
-  },
-  {
-    id: 2,
-    name: "Smart Watch",
-    category: "Electronics",
-    price: 129.99,
-    emoji: "⌚",
-    description: "Keep track of your activity and daily routine.",
-    badge: "Popular",
-  },
-  {
-    id: 3,
-    name: "Everyday Backpack",
-    category: "Accessories",
-    price: 54.99,
-    emoji: "🎒",
-    description: "A practical companion for study and travel.",
-    badge: "",
-  },
-  {
-    id: 4,
-    name: "Desk Lamp",
-    category: "Home",
-    price: 39.99,
-    emoji: "💡",
-    description: "Comfortable lighting for your workspace.",
-    badge: "New",
-  },
-  {
-    id: 5,
-    name: "Portable Speaker",
-    category: "Electronics",
-    price: 69.99,
-    emoji: "🔊",
-    description: "Bring your favourite music wherever you go.",
-    badge: "",
-  },
-  {
-    id: 6,
-    name: "Travel Bottle",
-    category: "Accessories",
-    price: 24.99,
-    emoji: "🧴",
-    description: "A reusable bottle for busy days on the move.",
-    badge: "",
-  },
-];
 
 const money = (amount) =>
   new Intl.NumberFormat("en-NZ", {
