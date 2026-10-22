@@ -1,6 +1,8 @@
 import { useEffect, useMemo, useState } from "react";
 import "./App.css";
 
+const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000/api";
+
 const products = [
   {
     id: 1,
@@ -84,7 +86,7 @@ function App() {
     try {
       setRegisterLoading(true);
 
-      const response = await fetch("http://localhost:5000/api/auth/register", {
+      const response = await fetch(`${API_URL}/auth/register`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -166,7 +168,7 @@ function App() {
         setLoading(true);
         setError("");
 
-        const response = await fetch("http://localhost:5000/api/products");
+        const response = await fetch(`${API_URL}/products`);
 
         if (!response.ok) {
           throw new Error("Could not load products.");
@@ -210,7 +212,7 @@ function App() {
     try {
       setLoginLoading(true);
 
-      const response = await fetch("http://localhost:5000/api/auth/login", {
+      const response = await fetch(`${API_URL}/auth/login`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -240,7 +242,7 @@ function App() {
     setAdminLoginMessage("");
     try {
       setAdminLoginLoading(true);
-      const response = await fetch("http://localhost:5000/api/auth/admin-login", {
+      const response = await fetch(`${API_URL}/auth/admin-login`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(adminLoginForm),
@@ -277,7 +279,7 @@ function App() {
   };
 
   const reloadProducts = async () => {
-    const response = await fetch("http://localhost:5000/api/products");
+    const response = await fetch(`${API_URL}/products`);
     const data = await response.json();
     if (!response.ok) throw new Error(data.message || "Could not refresh products.");
     const emojiByName = {
@@ -320,8 +322,8 @@ function App() {
       const isEditing = Boolean(editingProductId);
       const response = await fetch(
         isEditing
-          ? `http://localhost:5000/api/products/${editingProductId}`
-          : "http://localhost:5000/api/products",
+          ? `${API_URL}/products/${editingProductId}`
+          : `${API_URL}/products`,
         {
           method: isEditing ? "PUT" : "POST",
           headers: {
@@ -366,7 +368,7 @@ function App() {
     setAdminProductMessage("");
     try {
       setAdminProductLoading(true);
-      const response = await fetch(`http://localhost:5000/api/products/${product.id}`, {
+      const response = await fetch(`${API_URL}/products/${product.id}`, {
         method: "DELETE",
         headers: { Authorization: `Bearer ${adminToken}` },
       });
